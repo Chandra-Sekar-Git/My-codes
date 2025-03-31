@@ -1,0 +1,54 @@
+Python
+a = int(input('Enter a value: '))
+
+if(a%4==0):
+    print("Leap year")
+else:
+    print('Not a Leap year')
+
+Java
+package seleniumTest;
+
+import java.util.Scanner;
+
+public class DemoUse {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a value : ");
+		int a = sc.nextInt();
+
+		if(a%4==0) {
+			System.out.println("Leap Year");
+		}
+		else {
+			System.out.println("Not a Leap Year");
+		}
+		sc.close();
+	}
+}
+
+C#
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Program
+{
+   public class LeapYear
+   {
+       public static void Main(string[] args)
+       {
+            Console.WriteLine ("Enter a value: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if(a%4==0) {
+		 	         Console.WriteLine("Leap Year");
+		        }
+		        else {
+		    	     Console.WriteLine("Not a Leap Year");
+	    	    }
+        }
+    }
+}
