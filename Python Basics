@@ -1,0 +1,24 @@
+a = 5
+b = 10
+c = a+b
+d = a-b
+e = a*b
+f = a/b
+print(c)
+print(d)
+print(e)
+
+if and else:
+
+a = 50
+b = 10
+if(a>b):
+    print('A is big')
+else:
+    print('B is big')
+
+for loop:
+
+a = 10
+for i in range(0,a):
+  print(i)
