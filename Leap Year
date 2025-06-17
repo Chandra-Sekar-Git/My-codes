@@ -44,11 +44,11 @@ namespace Program
             Console.WriteLine ("Enter a value: ");
             int a = Convert.ToInt32(Console.ReadLine());
             if(a%4==0) {
-		 	         Console.WriteLine("Leap Year");
-		        }
-		        else {
-		    	     Console.WriteLine("Not a Leap Year");
-	    	    }
+		Console.WriteLine("Leap Year");
+	    }
+	    else {
+		Console.WriteLine("Not a Leap Year");
+	    }
         }
     }
 }
