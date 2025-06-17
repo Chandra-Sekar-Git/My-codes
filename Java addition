@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        // System.out.println(10/2);
+        // System.out.println(10%2);
+        Scanner s = new Scanner(System.in);
+        System.out.println("A value: ");
+        int a = s.nextInt();
+        System.out.println("B value: ");
+        int b = s.nextInt();
+        int c = a+b;
+        System.out.println("The sum of "+a+" and "+b+" is "+c);
+    }
+}
+
+o/p:
+A value: 5
+B value: 10
+The sum of 5 and 10 is 15
